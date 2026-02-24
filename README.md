@@ -1,91 +1,89 @@
 # Netflix-Data-Analysis-Dashboard
 Data Analysis Project showcasing Netflix Data using Power Bi.
-# 🎬 Netflix Data Analysis Dashboard (Power BI)
+# 🎬 Netflix Data Analysis Dashboard | Power BI
 
-An interactive Power BI dashboard analyzing Netflix Movies & TV Shows data.
-This project provides insights into content distribution, ratings, genres, release trends, and top-performing titles.
+An interactive Power BI dashboard built using the Netflix dataset (`netflix_titles.csv`).  
+This project analyzes Movies and TV Shows available on Netflix to uncover trends, patterns, and insights.
 
 ---
 
-## 📊 Project Overview
+## 📂 Dataset Information
 
-This dashboard helps analyze:
+**File Name:** `netflix_titles.csv`
 
-- Total Movies & TV Shows
-- Content distribution by type
-- Ratings breakdown
-- Release year trends
+### 📌 Dataset Columns
+
+- `show_id` – Unique identifier for each title  
+- `type` – Movie or TV Show  
+- `title` – Name of the content  
+- `director` – Director of the content  
+- `cast` – Main actors  
+- `country` – Country of production  
+- `date_added` – Date added to Netflix  
+- `release_year` – Year of release  
+- `rating` – Content rating (TV-MA, PG, etc.)  
+- `duration` – Duration (minutes or seasons)  
+- `listed_in` – Genre/category  
+- `description` – Short summary  
+
+---
+
+## 📊 Dashboard Pages
+
+### 1️⃣ Overview Page
+- Total Movies vs TV Shows
+- Content distribution by rating
+- Release year trend analysis
+- Country-wise distribution
 - Top genres
-- Country-wise content distribution
-- Top Movies analysis page
+- Interactive slicers & filters
 
-The report includes interactive visuals, slicers, bookmarks, and page navigation for better user experience.
+### 2️⃣ Top Movies Analysis
+- Top movies by category
+- Rating-based filtering
+- Detailed insights using bookmarks
+- Page navigation for smooth user experience
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Tools & Techniques Used
 
-- Power BI
+- Power BI Desktop
 - Power Query (Data Cleaning & Transformation)
-- DAX (Data Analysis Expressions)
+- DAX (Measures & Calculated Columns)
+- Interactive Slicers
 - Bookmarks
 - Page Navigator
-- Slicers & Filters
+- Dynamic Filtering
 
 ---
 
-## 📂 Dataset
+## 🔎 Key Insights
 
-The dataset contains information about:
-- Title
-- Type (Movie/TV Show)
-- Director
-- Cast
-- Country
-- Release Year
-- Rating
-- Duration
-- Genre
-
-(Source: Public Netflix dataset)
-
----
-
-## 📈 Key Features
-
-✔ Overview Dashboard Page  
-✔ Top Movies Analysis Page  
-✔ Interactive Slicers  
-✔ Bookmark-based Navigation  
-✔ Dynamic Filtering  
-✔ Clean UI Design  
-
----
-
-## 🔍 Insights Extracted
-
-- Movies dominate Netflix content compared to TV Shows
-- Significant content growth after 2015
-- Certain genres like Drama and International Movies are highly popular
-- Content distribution varies significantly by country
+- Netflix has significantly increased content after 2015
+- Movies form a larger portion of total content
+- Drama and International categories dominate
+- Content ratings vary widely across regions
 
 ---
 
 ## 🚀 How to Use
 
-1. Download the `.pbix` file from this repository.
-2. Open using Power BI Desktop.
-3. Interact with slicers and filters to explore insights.
+1. Clone or download this repository
+2. Open the `.pbix` file in Power BI Desktop
+3. Interact with filters and slicers to explore insights
 
 ---
 
-## 📌 Project Status
+## 📌 Future Improvements
 
-Completed – Open for improvements and enhancements.
+- Add AI-based recommendation insights
+- Perform genre-level time series forecasting
+- Deploy dashboard using Power BI Service
 
 ---
 
 ## 👨‍💻 Author
 
 Anijith M  
-Aspiring Data Engineer | AI Enthusiast  
+Aspiring Data Engineer | AI & Analytics Enthusiast  
